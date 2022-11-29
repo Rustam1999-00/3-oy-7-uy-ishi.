@@ -23,14 +23,14 @@ elform.addEventListener('submit',function(evt){
 
 
     if(elselect.value == 1){
-    eltitle.textContent = `${elinputi } SO'M = $ ${DOLLOR.toFixed(4)}`
+    eltitle.textContent = `${elinputi } SO'M = $ ${DOLLOR.toFixed(3)}`
 
     }  else if(elselect.value == 2){
-        eltitle.textContent = `${elinputi } SO'M = ₽  ${RUBL.toFixed(4)}`
+        eltitle.textContent = `${elinputi } SO'M = ₽  ${RUBL.toFixed(3)}`
     
         } else if(elselect.value == 3
             ){
-            eltitle.textContent = `${elinputi } SO'M = € ${EVRO.toFixed(4)}`
+            eltitle.textContent = `${elinputi } SO'M = € ${EVRO.toFixed(3)}`
         
         }  else if(elselect.value == isNaN(Number)==true){
             eltitle.textContent = 'son kiriting'; 
